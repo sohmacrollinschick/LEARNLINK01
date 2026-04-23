@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import background from "./assets/image/business-education-concept-smiling-young-600nw-2122524395.jpg";
 import { supabase } from "./supabaseClient";
-import { useUser } from "./components/UserContext";
+import { useUser } from "./components/Usercontext";
 import { Eye, EyeOff, User, ArrowLeft } from "lucide-react";
 
 export default function Login({ onLogin }) {

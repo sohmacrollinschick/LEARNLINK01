@@ -24,7 +24,7 @@ import { extractClickableInfo, trackStudentActivity } from "./lib/studentActivit
 
 
 // Auth Context
-import { useUser } from "./components/UserContext.jsx";
+import { useUser } from "./components/Usercontext.jsx";
 
 export default function App() {
   const { user, loading } = useUser();

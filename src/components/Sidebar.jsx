@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { useUser } from "./UserContext";
+import { useUser } from "./Usercontext";
 import {
   LayoutDashboard,
   Settings,
